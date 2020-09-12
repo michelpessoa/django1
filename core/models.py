@@ -7,7 +7,7 @@ class Produto(models.Model):
     estoque = models.IntegerField('Quantidade em Estoque')
 
     def __str__(self):
-        return {self.nome}
+        return self.nome
 
 
 class Cliente(models.Model):
